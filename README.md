@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧠 AI Learning Platform
 
-## Getting Started
+A gamified, AI-powered educational platform designed to help users learn smarter through interactive lessons, personalized quizzes, and visually immersive learning paths.
 
-First, run the development server:
+Built with:
+- Next.js 14 (App Router)
+- Tailwind CSS + ShadCN UI
+- Supabase (Auth + DB)
+- OpenAI API
+- TypeScript
+
+---
+
+## 🚀 Features
+
+- 📚 Guided learning paths by subject/topic
+- 🎮 XP, streaks, ranks, and achievements
+- 🧠 AI review quizzes (personalized from completed lessons)
+- 💬 AI tutor (ask questions about lessons)
+- 🖼️ SVG/vector-based visual learning
+- 🌙 Dark mode + responsive design
+- 🔐 Auth via Supabase (login/signup)
+- 🧪 Full developer test suite for AI reliability
+
+---
+
+## 🛠️ Getting Started
 
 ```bash
+# Install dependencies
+npm install
+
+# Create a .env.local file
+echo "OPENAI_API_KEY=sk-..." >> .env.local
+
+# Start the dev server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit `http://localhost:3000` to view the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧩 Project Structure (Simplified)
 
-## Learn More
+```
+src/
+├── app/              # Routes (App Router)
+├── components/       # UI and layout components
+├── data/             # Static lessons and test content
+├── lib/              # Utilities and API clients
+├── scripts/          # AI test tools
+├── styles/           # Global + Tailwind styles
+├── planning/         # [IGNORED] Local design & vision docs
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧪 Developer Utilities
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Run AI tests before pushing:
+```bash
+npx tsx scripts/run-ai-tests.ts
+```
 
-## Deploy on Vercel
+- AI quiz & tutor logic live in `lib/ai-test-utils.ts`
+- Test data lives in `data/test-lessons.ts`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🤝 Contributing
+
+This project is in early development and not open for public contributions yet.  
+However, if you're curious or have a suggestion, feel free to open an issue or star the repo!
+
+> For collaborators: keep all work-in-progress documents inside the `/planning` folder (ignored in Git).
+
+---
+
+## 📄 License
+
+This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** license.
+
+This means:
+- ✅ Others can **use, share, and remix** your work **non-commercially**
+- ❌ Others **cannot sell, resell, or build commercial knockoffs**
+- ✅ Must credit you as the original creator
+
+If you'd like to collaborate commercially or license the project for wider use, please contact the author.
+
+---
+
+## ✨ Built By
+
+Made by dripz0r – follow for updates or collab ideas. 
