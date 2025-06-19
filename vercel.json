@@ -1,5 +1,0 @@
-{
-    "ignoreCommand": "echo 'Skipping non-production files'",
-    "cleanUrls": true
-  }
-  
