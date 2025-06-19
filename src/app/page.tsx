@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <section className="flex flex-col items-center justify-center text-center px-6 py-32 gap-6">
@@ -8,18 +10,18 @@ export default function Home() {
         Personalized lessons. Gamified progress. Visual explanations. Built for the curious.
       </p>
       <div className="flex gap-4 mt-6">
-        <a
+        <Link
           href="/learn"
           className="bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium shadow hover:bg-primary/90 transition"
         >
           Start Learning
-        </a>
-        <a
+        </Link>
+        <Link
           href="/quiz"
           className="border border-border px-6 py-3 rounded-lg font-medium text-foreground hover:bg-muted transition"
         >
           Try a Quiz
-        </a>
+        </Link>
       </div>
     </section>
   );

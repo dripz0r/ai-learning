@@ -1,7 +1,7 @@
 // lib/ai-test-utils.ts
 // Utility functions for testing AI feature output
 
-import { OpenAIStreamPayload } from './types'
+// import { OpenAIStreamPayload } from './types'
 import { testLessonTopics } from '../data/test-lessons'
 
 type QuizQuestion = {
