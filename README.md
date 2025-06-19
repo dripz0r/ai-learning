@@ -13,6 +13,10 @@ Built with:
 
 ## 🚀 Features
 
+## 🌐 Live Preview
+
+[https://ai-learning.vercel.app](https://ai-learning.vercel.app) *(Coming soon if not live yet)*
+
 - 📚 Guided learning paths by subject/topic
 - 🎮 XP, streaks, ranks, and achievements
 - 🧠 AI review quizzes (personalized from completed lessons)
@@ -92,4 +96,4 @@ If you'd like to collaborate commercially or license the project for wider use, 
 
 ## ✨ Built By
 
-Made by dripz0r – follow for updates or collab ideas. 
+Made by dripz0r – follow for updates or collab ideas.
